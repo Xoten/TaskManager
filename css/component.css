@@ -1,0 +1,168 @@
+.taskview{
+    display: flex;
+    flex-direction:column;
+    margin:20px;
+    padding:30px;
+    border-radius:10px;   
+    position:relative;
+    background-color: rgb(255, 255, 255);
+    padding-left: 10px;
+    text-justify: auto;
+    line-height: 1.6;
+}
+
+
+.button1{
+    background-color: red;
+    position: absolute;
+    top:10px;
+    right:20px;
+    width: 20px;
+    height:20px;
+    
+}
+
+
+.button2{
+    background-color:dodgerblue;
+    position: absolute;
+    bottom:10px;
+    right:20px;
+    width: 20px;
+    height:20px;
+   
+}
+.button3{
+    background-color: rgb(251, 255, 0);
+    position: absolute;
+    bottom:10px;
+    width: 20px;
+    height:20px;
+   
+}
+
+
+.form{
+   
+    display:flex;
+    flex-direction: row;
+    margin: 60px;
+    height:900px;
+    
+
+}
+
+
+.type{
+
+    display:flex;
+    flex-direction: column;
+    margin:10px;
+    background-color: rgb(110, 105, 182);
+    width:500px;
+    border: 2px rgb(32, 8, 119);
+    border-radius: 25px;
+    overflow-y: scroll;
+   
+}
+
+.title{
+    text-align: center;
+    font-weight: bold;
+    color: rgb(32, 8, 119);
+    padding-top: 10px;
+
+}
+
+
+.date{
+
+    font-family: "Agency FB";
+    color:#808080;
+    font-size: 10px;
+    text-align: left;
+    
+}
+.text{
+    word-wrap: break-word;
+
+}
+.name{
+    word-wrap: break-word;
+    font-weight: bold;
+   
+}
+.body{
+
+    background-color: rgb(32, 8, 119);
+}
+
+.task{
+
+    padding-top: 25px;
+    display:flex;
+    flex-direction: column;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin: 10px;
+    height: 40%;
+    background-color: rgb(110, 105, 182);
+    border-radius: 25px;
+    
+    
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 10px;
+    line-height: 1.6;
+    height:60%;
+    width:90%;
+    
+
+}
+
+.fix{
+    border: 1px rgb(32, 8, 119);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar {
+    width: 16px;
+}
+ 
+::-webkit-scrollbar-track {
+    background-color: #e4e4e4;
+    border-radius: 100px;
+}
+ 
+::-webkit-scrollbar-thumb {
+    background-color: #55138b;
+    border-radius: 100px;
+}
+.mainTitle{
+
+    text-align: center;
+    font-weight: bolder;
+    color: rgb(32, 8, 119);
+    padding: 10px;
+}
+.mainTitleC{
+
+    background-color: #e4e4e4;
+    width: 30%;
+    margin:auto;
+    border-radius: 25px;
+    margin-top: 21px;
+}
+.btntask{
+
+    background-color: rgb(32, 8, 119);
+    border: 1px rgb(32, 8, 119);
+    border-radius: 25px;
+    font-weight: bold;
+    color:#e4e4e4
+    
+}
